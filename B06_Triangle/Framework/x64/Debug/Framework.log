@@ -1,0 +1,38 @@
+﻿  Framework.cpp
+  Context.cpp
+  Shader.cpp
+  Texture.cpp
+  D3D.cpp
+  Gui.cpp
+  Keyboard.cpp
+  Mouse.cpp
+  Time.cpp
+  Window.cpp
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\renders\context.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\framework.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+  BinaryFile.cpp
+  Math.cpp
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\renders\shader.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\renders\texture.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\d3d.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\keyboard.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\utilities\binaryfile.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\time.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\utilities\math.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\window.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\mouse.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\systems\gui.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+  Path.cpp
+  String.cpp
+  Xml.cpp
+  Orthographic.cpp
+  Perspective.cpp
+  Projection.cpp
+  Viewport.cpp
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\utilities\path.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\utilities\string.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\viewer\perspective.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\viewer\projection.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\viewer\orthographic.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\viewer\viewport.cpp(1): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
+c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\framework\utilities\xml.cpp(24): fatal error C1083: 미리 컴파일된 헤더 파일을 열 수 없습니다. 'x64\Debug\Framework.pch': No such file or directory
