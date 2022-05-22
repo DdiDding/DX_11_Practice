@@ -2,3 +2,10 @@ _Assets
 _Libraries
 _Models
 _Textures
+ipch/
+*.aps
+*.ncb
+*.opendb
+*.opensdf
+*.sdf
+*.cachefile
