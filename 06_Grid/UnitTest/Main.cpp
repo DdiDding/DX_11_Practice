@@ -1,9 +1,6 @@
 #include "stdafx.h"
 #include "Main.h"
 #include "Systems/Window.h"
-
-#include "Vertex_Line.h"
-#include "Vertex_Line2.h"
 #include "TriangleList.h"
 
 void Main::Initialize()
