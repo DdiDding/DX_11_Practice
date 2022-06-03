@@ -3,10 +3,12 @@
 #include "Systems/Window.h"
 #include "TriangleList.h"
 #include "Vertex/GridDemo.h"
+#include "Vertex/Cube.h"
 
 void Main::Initialize()
 {
 	Push(new GridDemo());
+	Push(new Cube());
 }
 
 void Main::Ready()

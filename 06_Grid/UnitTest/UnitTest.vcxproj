@@ -156,12 +156,14 @@
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="Vertex\Cube.cpp" />
     <ClCompile Include="Vertex\GridDemo.cpp" />
     <ClCompile Include="Vertex\TriangleList.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Main.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Vertex\Cube.h" />
     <ClInclude Include="Vertex\GridDemo.h" />
     <ClInclude Include="Vertex\TriangleList.h" />
   </ItemGroup>

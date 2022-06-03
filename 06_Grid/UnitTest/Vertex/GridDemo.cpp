@@ -18,9 +18,9 @@ void GridDemo::Initialize()
 			{
 				UINT index = (width + 1) * z + x;
 
-				vertices[index].Position.x = (float)x;
-				vertices[index].Position.y = 0.0f;
-				vertices[index].Position.z = (float)z;
+				vertices[index].Position.x = (float)x - 15.f;
+				vertices[index].Position.y = 0.0f - 0.5f;
+				vertices[index].Position.z = (float)z - 15.f;
 			}
 		}
 		//버퍼의 설명 정의
@@ -70,8 +70,6 @@ void GridDemo::Initialize()
 
 		Check(D3D::GetDevice()->CreateBuffer(&desc, &subdata, &indexBuffer));
 	}
-
-	
 }
 
 //소멸자
@@ -106,7 +104,7 @@ void GridDemo::Render()
 	shader->AsMatrix("Projection")->SetMatrix(Context::Get()->Projection());
 	shader->AsMatrix("World")->SetMatrix(world);
 
-	Color color = Color(1, 0, 0, 1);
+	Color color = Color(0, 0.5, 0.5, 1);
 	shader->AsVector("Color")->SetFloatVector(color);
 
 	//D3D::GetDC()->Draw(vertexCount, startVertexLocation) 과 같다.

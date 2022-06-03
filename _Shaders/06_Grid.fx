@@ -1,5 +1,5 @@
 matrix World, View, Projection;
-
+float4 Color;
 struct VertexInput
 {
 	float4 Position : Position;
@@ -22,7 +22,7 @@ VertexOutput VS(VertexInput input)
 
 float4 PS_R(VertexOutput input) : SV_target
 {
-	return float4(1, 0, 0, 1);
+    return Color;
 }
 
 float4 PS_G(VertexOutput input) : SV_target

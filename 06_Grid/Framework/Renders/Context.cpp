@@ -3,6 +3,7 @@
 #include "Viewer/Viewport.h"
 #include "Viewer/Perspective.h"
 #include "Viewer/Freedom.h"
+#include "Viewer/OrbitCam.h"
 
 Context* Context::instance = NULL;
 
@@ -31,7 +32,8 @@ Context::Context()
 
 	perspective = new Perspective(desc.Width, desc.Height);
 	viewport = new Viewport(desc.Width, desc.Height);
-	camera = new Freedom();
+	//camera = new Freedom();
+	camera = new OrbitCam();
 }
 
 Context::~Context()
@@ -55,6 +57,11 @@ void Context::Update()
 void Context::Render()
 {
 	viewport->RSSetViewport();
+}
+
+Vector3 Context::GetLookPos()
+{
+	return camera->GetLookPos();
 }
 
 D3DXMATRIX Context::View()

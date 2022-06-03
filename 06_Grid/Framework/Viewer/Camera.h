@@ -27,15 +27,15 @@ public:
 	Vector3 Up() { return up; }
 	Vector3 Right() { return right; }
 
+	virtual Vector3 GetLookPos() { return Vector3(0, 0, 0); }
+
 protected:
 	virtual void Rotation();
 	virtual void Move();
 
 protected:
-	void View();
-
-
-private:
+	virtual void View();
+	Matrix matView;
 	Vector3 position = Vector3(0, 0, 0);
 	Vector3 rotation = Vector3(0, 0, 0);
 
@@ -43,7 +43,6 @@ private:
 	Vector3 up = Vector3(0, 1, 0);
 	Vector3 right = Vector3(1, 0, 0);
 
-	Matrix matView;
 	Matrix matRotation;
 
 };

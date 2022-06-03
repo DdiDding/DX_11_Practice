@@ -17,8 +17,8 @@ private:
 
 	Shader * shader;
 
-	UINT width = 128;
-	UINT height = 128;
+	UINT width = 30;
+	UINT height = 30;
 
 	UINT vertexCount;
 	Vertex * vertices;
