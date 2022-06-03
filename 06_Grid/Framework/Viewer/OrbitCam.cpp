@@ -1,6 +1,11 @@
 #include "Framework.h"
 #include "OrbitCam.h"
 
+OrbitCam::OrbitCam()
+{
+
+}
+
 OrbitCam::~OrbitCam()
 {
 }
@@ -53,19 +58,19 @@ void OrbitCam::Update()
 	//Rotation
 	{
 		Vector3 R;
-		Rotation(&R);
+		Rotation();
 
 		Vector3 val = Mouse::Get()->GetMoveValue();
-		R.x = R.x + val.y * rotation * Time::Delta();
-		R.y = R.y + val.x * rotation * Time::Delta();
+		iongit += val.y * rotationSpeed * Time::Delta();
+		seta += val.x * rotationSpeed * Time::Delta();
 		R.z = 0.0f;
 
-		Rotation(R);
+		Rotation(&R);
 	}
 }
 
 void OrbitCam::Speed(float move, float rotation)
 {
 	this->move = move;
-	this->rotation = rotation;
+	this->rotationSpeed = rotation;
 }
