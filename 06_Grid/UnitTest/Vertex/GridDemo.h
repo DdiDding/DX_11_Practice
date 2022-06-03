@@ -17,12 +17,16 @@ private:
 
 	Shader * shader;
 
-	int width = 5;
-	int height = 5;
+	UINT width = 5;
+	UINT height = 5;
 
-	Vertex vertices[6];
+	UINT vertexCount;
+	Vertex * vertices;
 	ID3D11Buffer * vertexBuffer;
 
-	UINT indecies[6];
+	UINT indexCount;
+	UINT * indices;
 	ID3D11Buffer * indexBuffer;
+
+	Matrix world;
 };

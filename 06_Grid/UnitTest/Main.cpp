@@ -2,10 +2,11 @@
 #include "Main.h"
 #include "Systems/Window.h"
 #include "TriangleList.h"
+#include "Vertex/GridDemo.h"
 
 void Main::Initialize()
 {
-	Push(new TriangleList());
+	Push(new GridDemo());
 }
 
 void Main::Ready()
