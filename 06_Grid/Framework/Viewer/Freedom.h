@@ -10,6 +10,6 @@ public:
 	void Speed(float move, float rotation);
 
 private:
-	float move = 20.0f;
-	float rotation = 2.0f;
+	float move = 40.0f;
+	float rotation = 6.0f;
 };

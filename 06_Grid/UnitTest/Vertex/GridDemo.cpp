@@ -49,7 +49,8 @@ void GridDemo::Initialize()
 		{
 			for (UINT x = 0; x < width; ++x)
 			{
-				indices[index] = (width + 1) * z + x;
+				//(width + 1) * z 가 한줄의 첫번째 원소를 의미합니다.
+				indices[index + 0] = (width + 1) * z + x;
 				indices[index + 1] = (width + 1) * (z + 1) + x;
 				indices[index + 2] = (width + 1) * z + x + 1;
 

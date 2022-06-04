@@ -4,11 +4,14 @@
 #include "TriangleList.h"
 #include "Vertex/GridDemo.h"
 #include "Vertex/Cube.h"
+#include "Vertex/TerrainDemo.h"
+
 
 void Main::Initialize()
 {
-	Push(new GridDemo());
+	Push(new TerrainDemo());
 	Push(new Cube());
+	//Push(new GridDemo());
 }
 
 void Main::Ready()

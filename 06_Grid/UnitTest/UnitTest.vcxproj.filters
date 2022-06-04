@@ -12,6 +12,9 @@
     <ClCompile Include="Vertex\Cube.cpp">
       <Filter>Vertex</Filter>
     </ClCompile>
+    <ClCompile Include="Vertex\TerrainDemo.cpp">
+      <Filter>Vertex</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Vertex\TriangleList.h">
@@ -23,6 +26,9 @@
     <ClInclude Include="Main.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Vertex\Cube.h">
+      <Filter>Vertex</Filter>
+    </ClInclude>
+    <ClInclude Include="Vertex\TerrainDemo.h">
       <Filter>Vertex</Filter>
     </ClInclude>
   </ItemGroup>

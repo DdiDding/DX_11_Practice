@@ -65,6 +65,12 @@
     <ClCompile Include="Viewer\OrbitCam.cpp">
       <Filter>Viewer</Filter>
     </ClCompile>
+    <ClCompile Include="Environment\Terrain.cpp">
+      <Filter>Environment</Filter>
+    </ClCompile>
+    <ClCompile Include="Meshes\Mesh.cpp">
+      <Filter>Meshes</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Renders">
@@ -78,6 +84,12 @@
     </Filter>
     <Filter Include="Viewer">
       <UniqueIdentifier>{e57bc2c6-7ff9-49f4-9e8b-9417dae7f824}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Environment">
+      <UniqueIdentifier>{14d44e95-b167-4b3e-926e-67241b8a23eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Meshes">
+      <UniqueIdentifier>{5a53d606-dba0-4824-8327-a20cdda79fc9}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -150,6 +162,12 @@
     </ClInclude>
     <ClInclude Include="Viewer\OrbitCam.h">
       <Filter>Viewer</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment\Terrain.h">
+      <Filter>Environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Meshes\Mesh.h">
+      <Filter>Meshes</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

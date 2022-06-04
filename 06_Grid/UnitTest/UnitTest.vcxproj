@@ -158,6 +158,7 @@
     </ClCompile>
     <ClCompile Include="Vertex\Cube.cpp" />
     <ClCompile Include="Vertex\GridDemo.cpp" />
+    <ClCompile Include="Vertex\TerrainDemo.cpp" />
     <ClCompile Include="Vertex\TriangleList.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -165,6 +166,7 @@
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="Vertex\Cube.h" />
     <ClInclude Include="Vertex\GridDemo.h" />
+    <ClInclude Include="Vertex\TerrainDemo.h" />
     <ClInclude Include="Vertex\TriangleList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
