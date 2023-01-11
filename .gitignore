@@ -2,6 +2,7 @@ _Assets
 _Libraries
 _Models
 _Textures
+.vs
 ipch/
 *.aps
 *.ncb
