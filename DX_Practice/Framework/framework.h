@@ -1,5 +1,6 @@
 #pragma once
 
+#define no_init_all
 #include <Windows.h>
 #include <assert.h>
 

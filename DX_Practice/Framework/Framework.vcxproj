@@ -150,6 +150,10 @@
     <Lib>
       <AdditionalLibraryDirectories>../../_Libraries</AdditionalLibraryDirectories>
     </Lib>
+    <PostBuildEvent>
+      <Command>copy /Y "$(SolutionDir)Debug\$(ProjectName).lib" "$(SolutionDir)UnitTest"
+copy /Y "$(SolutionDir)Debug\$(ProjectName).pdb" "$(SolutionDir)UnitTest"</Command>
+    </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
