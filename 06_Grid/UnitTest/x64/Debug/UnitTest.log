@@ -1,9 +1,0 @@
-﻿  Main.cpp
-c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\unittest\stdafx.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Framework.h': No such file or directory
-  stdafx.cpp
-c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\unittest\stdafx.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Framework.h': No such file or directory
-  Vertex_Line.cpp
-c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\unittest\stdafx.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Framework.h': No such file or directory
-  Vertex_Line2.cpp
-c:\users\kdjwa\desktop\dx11_3d\dx11_3d_practice\dx11_3d\unittest\stdafx.h(3): fatal error C1083: 포함 파일을 열 수 없습니다. 'Framework.h': No such file or directory
-  코드를 생성하고 있습니다...

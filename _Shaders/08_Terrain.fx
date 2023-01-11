@@ -47,7 +47,8 @@ VertexOutput VS(VertexInput input)
 float4 PS(VertexOutput input) : SV_target
 {
     float NdotL = dot(-LightDirection, normalize(input.Normal));
-    return input.Color * NdotL;
+    //return input.Color * NdotL;
+    return NdotL;
 }
 
 //레스터라이즈 계산된 픽셀을 어떻게 채울것인가 설정 값 ( 아직 설정한게 아님 )
