@@ -2,8 +2,12 @@
 #include "Main.h"
 #include "Systems/Window.h"
 
+#include "TriangleList.h"
+
+
 void Main::Initialize()
 {
+	Push(new TriangleList());
 }
 
 void Main::Ready()
@@ -42,6 +46,8 @@ void Main::PostRender()
 {
 	for (IExecute* exe : executes)
 		exe->PostRender();
+
+	ImGui::Text("Fps : %f", Time::Get()->FPS());
 }
 
 void Main::ResizeScreen()

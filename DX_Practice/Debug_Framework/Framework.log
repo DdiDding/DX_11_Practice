@@ -1,23 +1,3 @@
-﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppClean.targets(76,5): warning : 'c:\project_vs17\dx_11_practice\dx_practice\debug\framework.pdb' 파일은 다른 프로세스에서 사용 중이므로 프로세스에서 액세스할 수 없습니다.
-  Framework.cpp
-  Context.cpp
-  Shader.cpp
-  Texture.cpp
-  D3D.cpp
-  Gui.cpp
-  Keyboard.cpp
-  Mouse.cpp
-  Time.cpp
-  Window.cpp
-  BinaryFile.cpp
-  Math.cpp
-  Path.cpp
-  String.cpp
-  Xml.cpp
-  Orthographic.cpp
-  Perspective.cpp
-  Projection.cpp
-  Viewport.cpp
-  Framework.vcxproj -> C:\Project_VS17\DX_11_Practice\DX_Practice\Debug\Framework.lib
+﻿  Framework.vcxproj -> C:\Project_VS17\DX_11_Practice\DX_Practice\Debug\Framework.lib
           1개 파일이 복사되었습니다.
           1개 파일이 복사되었습니다.
